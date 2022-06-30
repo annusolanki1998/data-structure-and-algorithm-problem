@@ -16,6 +16,7 @@ public class InsertionSort {
         }
         System.out.println("Printing the sorted array ");
         for (int i = 0; i < array.length; i++) {
+
             System.out.print(array[i] + " ");
         }
     }
