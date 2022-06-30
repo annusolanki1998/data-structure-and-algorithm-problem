@@ -1,11 +1,9 @@
 package com.bridgelabz;
 
 import java.util.Scanner;
-
 public class Permutation {
      static int count = 0;
-
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the string ");
         String string = scanner.next();
@@ -14,7 +12,6 @@ public class Permutation {
         method(string, answer);
         System.out.println("Total possibility ways are : " + count);
     }
-
     public static void method(String string, String answer) {
         if (string.length() == 0) {
             System.out.println(answer + " ");
