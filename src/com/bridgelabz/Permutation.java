@@ -17,6 +17,7 @@ public class Permutation {
             System.out.println(answer + " ");
             count++;
         }
+
         for (int i = 0; i < string.length(); i++) {
             char ch = string.charAt(i);
             String left = string.substring(0, i);
